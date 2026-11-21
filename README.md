@@ -5,8 +5,8 @@
 [![reward](https://make.fun/badge/tiny-chess-01/MightKamioka/tiny-chess-4k/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
 tiny-chess-4k is an original chess engine that fits under the 4 KB limit. The
-shipped `main.py` is 2,878 bytes of Python, produced by the make.fun kit
-compressor from a 7,118-byte readable source (`engine_src.py`). Each move is
+shipped `main.py` is 3,054 bytes of Python, produced by the make.fun kit
+compressor from a 7,602-byte readable source (`engine_src.py`). Each move is
 chosen by an iterative-deepening negamax search with alpha-beta pruning, capped
 at a fixed budget of 15,000 nodes rather than a clock, so the engine is fully
 deterministic: the same position always yields the same move. Leaf positions
